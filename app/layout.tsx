@@ -1,12 +1,23 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
-import { LanguageProvider } from "@/components/language-context"
-import "./globals.css"
+// import type React from "react"
+// import type { Metadata } from "next"
+// // import { Geist, Geist_Mono } from "next/font/google"
+// import { GeistSans } from "@vercel/geist/font/sans"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+// import { Analytics } from "@vercel/analytics/next"
+// import { GeistSans } from '@vercel/geist/font/sans'
+// import { LanguageProvider } from "@/components/language-context"pnpm r
+// import "./globals.css"
+
+// const _geist = Geist({ subsets: ["latin"] })
+// const _geistMono = Geist_Mono({ subsets: ["latin"] })
+
+
+import type { Metadata } from "next"
+import { GeistSans } from "@vercel/geist/font/sans"
+import "./globals.css"
+import { LanguageProvider } from "@/components/language-context"
+import { Analytics } from "@vercel/analytics/next"
+
 
 export const metadata: Metadata = {
   title: "Paulo Manzano - Blockchain Developer",
