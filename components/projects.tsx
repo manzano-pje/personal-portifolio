@@ -9,55 +9,62 @@ const projects = [
     
   {
     title: "Proof Chain - Emissão e Autenticação de Certicados via Blockchain (em desenvolvimento)",
-    stack: ["Java", "Spring Boot", "Spring Security", "PostgreSql", "MVC", "Docker", "Arquitetura de Camadas", "Solidity", "ERC721", "Ethereum", "Foundry", "Sepolia", "Oracle Cloud", "Vue", "HTML5", "CSS3", "Bootstrap", "Java Script"],
+    stack: ["Java", "Spring Boot", "Spring Security", "REST", "PostgreSql", "MVC", "Docker", 
+            "Arquitetura de Camadas", "Solidity", "ERC721", "Ethereum", "Foundry", "Sepolia", 
+            "Oracle Cloud", "Vue", "HTML5", "CSS3", "Bootstrap", "Java Script"],
     github: "https://proofchain-alpha.vercel.app/",
   },
 
   {
     title: "Gestão de Restaurante API",
-    stack: ["Java", "Spring Boot", "MySQL", "Docker"],
+    stack: ["Java", "Spring Boot", "MySQL", "Docker", "MVC", "Docker", 
+            "Arquitetura de Camadas","RabbitQ", "REST"],
     github: "https://github.com/manzano-pje/Restaurante",
   },
-  {
-    title: "Sistema Agora - Gestão de Associações",
-    stack: ["Java", "Spring Boot", "MySQL", "REST"],
-    github: "https://github.com/manzano-pje/Associacao-Quatinga",
-  },
+  // {
+  //   title: "Sistema Agora - Gestão de Associações",
+  //   stack: ["Java", "Spring Boot", "MySQL", "REST"],
+  //   github: "https://github.com/manzano-pje/Associacao-Quatinga",
+  // },
+  
   {
     title: "Gestão de Estoque API",
-    stack: ["Java", "Spring Boot", "MySQL", "Docker"],
+    stack: ["Java", "Spring Boot", "MySQL", "Docker", "MVC", "Docker", 
+            "Arquitetura de Camadas", "REST"],
     github: "https://github.com/manzano-pje/estoque",
   },
+
     
   {
     title: "Simulação de Banco Virtual",
-    stack: ["Java", "Spring Boot", "Spring Security", "MySql", "RabbitQ", "MVC", "Docker", "Arquitetura de Camadas"],
+    stack: ["Java", "Spring Boot", "Spring Security", "MySql", 
+            "MVC", "Docker", "Arquitetura de Camadas"],
     github: "https://github.com/manzano-pje/banco-virtual",
   },
 
-  {
-    title: "Sistema Web3 Login",
-    stack: ["Solidity", "Ethereum", "Foundry", "Sepolia"],
-    github: "https://github.com/manzano-pje",
-  },
-  {
-    title: "Tokenização de Ativos",
-    stack: ["Solidity", "ERC-20", "Foundry", "Web3"],
-    github: "https://github.com/manzano-pje/AxeToken",
-  },
+  // {
+  //   title: "Sistema Web3 Login",
+  //   stack: ["Solidity", "Ethereum", "Foundry", "Sepolia"],
+  //   github: "https://github.com/manzano-pje",
+  // },
+  // {
+  //   title: "Tokenização de Ativos",
+  //   stack: ["Solidity", "ERC-20", "Foundry", "Web3"],
+  //   github: "https://github.com/manzano-pje/AxeToken",
+  // },
   {
     title: "Sistema de Votação Descentralizado",
-    stack: ["Solidity", "ERC-721", "Foundry"],
+    stack: ["Solidity", "ERC-721", "Foundry", "IPFS", "Web3", "DApp", "Smart Contracts"],
     github: "https://vox-lab-flow.vercel.app/",
   },
   {
     title: "Agência de Locação Descentralizada",
-    stack: ["Solidity", "Smart Contracts", "Web3", "Foundry"],
+    stack: ["Solidity", "Smart Contracts", "Web3", "Foundry", "DApp"],
     github: "https://decar-locacao-de-veiculos-n2z4.vercel.app/",
   },
   {
     title: "Lista de Tarefas Web3",
-    stack: ["Solidity", "Remix", "Ethereum", "DApp"],
+    stack: ["Solidity", "Remix", "Ethereum", "DApp", "Smart Contracts"],
     github: "https://task-manager-4gux.vercel.app/",
   }
 

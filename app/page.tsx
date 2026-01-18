@@ -14,11 +14,11 @@ export default function Home() {
   const { accessibility } = useLanguage()
 
   return (
-    <div
-      data-fontSize={accessibility.fontSize}
-      data-high-contrast={accessibility.highContrast}
-      data-reduce-motion={accessibility.reduceMotion}
-    >
+      <div
+        data-fontsize={accessibility.fontSize}
+        data-high-contrast={accessibility.highContrast}
+        data-reduce-motion={accessibility.reduceMotion}
+      >
       <Header />
       <main>
         <Hero />
